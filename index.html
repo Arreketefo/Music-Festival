@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Rap & Drill Festival</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="/build/css/app.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="contenedor contenido-header">
+			<h1>Rap & Drill Sun Festival</h1>
+			<nav class="navegacion-principal">
+				<a href="#lineup">Line Up</a>
+				<a href="#galeria">Gallery</a>
+				<a href="#entradas">Tickets</a>
+			</nav>
+		</div>
+	</header>
+
+	<div class="video">
+		<div class="overlay">
+			<div class="contenedor contenido-video">
+				<h2>Rap & Drill Festival</h2>
+				<p>July 2022, Alicante, Spain</p>
+			</div>
+		</div>
+		<video autoplay muted loop>
+			<source src="/video/concert.mp4" type="video/mp4">
+			<source src="/video/concert.ogg" type="video/ogg">
+			<source src="/video/concert.webm" type="video/webm">
+		</video>
+	</div>
+
+	<section class="contenedor sobre-festival">
+		<div class="imagen">
+			<picture>
+				<source srcset="build/img/imagen-vocalista.avif" type="image/avif">
+				<source srcset="build/img/imagen-vocalista.webp" type="image/webp">
+				<img loading="lazy" width="250" height="350" src="build/img/imagen-vocalista.jpg"
+					alt="Imgagen vocalista">
+			</picture>
+		</div>
+		<div class="contenido-festival">
+			<h2>Rap & Drill Festival</h2>
+			<p class="fecha">July 2022, Alicante, Spain</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas adipisci minus minima quo libero quasi
+				eaque
+				ipsa itaque asperiores dicta dolor ad nisi iusto, vitae illo provident cumque, velit molestiae?</p>
+		</div>
+	</section>
+
+	<section id="lineup" class="lineup">
+		<h3>Line Up</h3>
+
+		<p class="dia"> Viernes 13</p>
+		<div class="escenarios-contenedor contenedor">
+			<div class="escenario rap bg-amarillo">
+				<p class="nombre-escenario">Escenario Rap</p>
+				<ul class="calendario">
+					<li>
+						24:00 | <span>Kase.O</span>
+					</li>
+					<li>
+						22:00 | <span>C. Tangana</span>
+					</li>
+					<li>
+						20:00 | <span>Wos</span>
+					</li>
+					<li>
+						19:00 | <span>Akapellah</span>
+					</li>
+					<li>
+						18:00 | <span>Nach</span>
+					</li>
+					<li>
+						17:00 | <span>C.R.O.</span>
+					</li>
+				</ul>
+			</div> <!--.escenario-->
+			<div class="escenario drill bg-verde">
+				<p class="nombre-escenario">Escenario Drill</p>
+				<ul class="calendario">
+					<li>
+						24:00 | <span>Cyril Kamer</span>
+					</li>
+					<li>
+						22:00 | <span>EZVIT 810</span>
+					</li>
+					<li>
+						20:00 | <span>Eladio Carrion</span>
+					</li>
+					<li>
+						19:00 | <span>Aimar JR</span>
+					</li>
+					<li>
+						18:00 | <span>El Patron970</span>
+					</li>
+					<li>
+						17:00 | <span>Lil Viic</span>
+					</li>
+				</ul>
+			</div> <!--.escenario-->
+		</div> <!--.escenario-contenedor-->
+
+
+		<p class="dia"> Sabado 14</p>
+		<div class="escenarios-contenedor contenedor">
+			<div class="escenario rap bg-verde">
+				<p class="nombre-escenario">Escenario Rap</p>
+				<ul class="calendario">
+					<li>
+						24:00 | <span>Tote King</span>
+					</li>
+					<li>
+						22:00 | <span>Al2 El Aldeano</span>
+					</li>
+					<li>
+						20:00 | <span>Ayax y Prok</span>
+					</li>
+					<li>
+						19:00 | <span>Dheformer Gallinier</span>
+					</li>
+					<li>
+						18:00 | <span>SFDK</span>
+					</li>
+					<li>
+						17:00 | <span>Costa</span>
+					</li>
+				<ul>
+			</div> <!--.escenario-->
+			<div class="escenario drill bg-amarillo">
+				<p class="nombre-escenario">Escenario Drill</p>
+				<ul class="calendario">
+					<li>
+						24:00 | <span>Beny Jr</span>
+					</li>
+					<li>
+						22:00 | <span>Morad</span>
+					</li>
+					<li>
+						20:00 | <span>B10</span>
+					</li>
+					<li>
+						19:00 | <span>Skinny Flex</span>
+					</li>
+					<li>
+						18:00 | <span>La Xinni</span>
+					</li>
+					<li>
+						17:00 | <span>Nickzzy</span>
+					</li>
+				</ul>
+				</ul>
+			</div> <!--/.escenario-->
+		</div> <!--/.escenario-contenedor-->
+	</section>
+
+
+	<!--.galeria-->
+	<section id="galeria" class="galeria contenedor">
+		<h3>Galeria</h3>
+
+		<ul class="galeria-imagenes"></ul>
+	</section>
+	<!--/.galeria-->
+
+	<!--.entradas-->
+	<section id="entradas" class="entradas bg-verde">
+		<h3>Entradas</h3>
+
+		<div class="contenedor contenedor-entradas">
+			<div class="basico pase">
+				<p class="nombre-pase">Pase de 1 dia</p>
+				<header class="pase-header">
+					<p>Incluye</p>
+				</header>
+				<div class="pase-body">
+					<ul>
+						<li>
+							Acceso ambos escenarios
+						</li>
+						<li>
+							Comida y bebida
+						</li>
+					</ul>
+				</div>
+				<footer class="pase-footer">
+					<p>$100</p>
+				</footer>
+			</div>
+			<div class="premium pase">
+				<p class="nombre-pase">Pase de 2 dias</p>
+				<header class="pase-header">
+					<p>Incluye</p>
+				</header>
+				<div class="pase-body">
+					<ul>
+						<li>
+							Acceso ambos escenarios
+						</li>
+						<li>
+							Comida y bebida
+						</li>
+						<li>
+							Camiseta del evento
+						</li>
+						<li>
+							Acceso VIP
+						</li>
+					</ul>
+				</div>
+				<footer class="pase-footer">
+					<p>$180</p>
+				</footer>
+			</div>
+		</div>
+	</section>
+	<!--/.entradas-->
+
+	<!--footer-->
+	<footer class="site-footer">
+		<p>Rap & Drill Festival. Todos los derechos reservados</p>
+	</footer>
+
+	<!--footer-->
+
+
+	<script src="build/js/app.js"></script>
+</body>
+
+</html>
